@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Shop Till You Drop!</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Online shopping</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<!--    <script src="jquery-3.2.1.min.js"></script> -->
+
 </head>
 <body>
-	<!--TopNavBar-->
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<a href="index.php" class="navbar-brand">Shop Till You Drop!</a>
-			<ul class="nav navbar-nav">
-				<li class=dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Men<span class="caret" ></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Shirts</a></li>
-						<li><a href="#">Pants</a></li>
-						<li><a href="#">Shoes</a></li>
-						<li><a href="#">Accessories</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</nav>
-
-	
-	<!--Header-->
-	<div id="headerWrapper">
-		<div id="back-flower"></div>
-		<div id="logotext"></div>
-		<div id="fore-flower"></div>
-	</div>
+  <!-- Top nav bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <a href="index.php" class="navbar-brand">Online Shopping</a>
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Shirts</a></li>
+            <li><a href="#">Pants</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Header -->
+  <div id="headerWrapper">
+    <div id="back-flower"></div>
+    <div id="logotext"></div>
+    <div id="for-flower"></div>
+  </div>
 
 	<div class="container-fluid">
 
