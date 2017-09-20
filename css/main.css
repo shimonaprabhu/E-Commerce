@@ -11,9 +11,9 @@ body{
 	background-image:url(../images/headerlogo/background.png);
 	background-repeat: no-repeat;
 	background-position: top-center;
-	background-attachment: fixed; 
+	background-attachment: fixed;
 	background-size: 100% 700px;
-	
+
 }
 
 #logotext{
@@ -26,7 +26,7 @@ body{
 	top: 50%;
 	margin-top: -90px;
 	background-size: 70% 100px;
-	
+
 }
 
 #fore-flower{
@@ -66,4 +66,7 @@ margin-top:50px;
 img.details{
 width:33px;
 margin: 15px auto;
+}
+.modal-body{
+	background-color: white;
 }
