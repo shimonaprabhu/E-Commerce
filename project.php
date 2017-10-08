@@ -28,13 +28,12 @@
 					<p class="list-price text-danger text-center">List Price<s>₹<?=$product['list_price'];?></s></p>
 
 					<p class="price text-center"> Our Price: ₹<?=$product['price'];?></p>
-					<button type="button" class="btn btn-sm btn-success center-block" data-toggle="modal" data-target="#details-1">Details</button>
+					<button type="button" class="btn btn-sm btn-success center-block" onclick="detailsmodal(<?=$product['id'];?>)">Details</button>
 				</div>
 				<?php endwhile;?>
 			</div>
 		</div>
     <?php
-      include 'includes/detailsmodel.php';
       include 'includes/rightbar.php';
       include 'includes/footer.php';
      ?>

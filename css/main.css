@@ -73,3 +73,6 @@ margin: 15px auto;
 .modal-header{
 	background-color: white;
 }
+#add-product-btn{
+	margin-top: -35px;
+}
