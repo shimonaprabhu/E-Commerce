@@ -1,10 +1,11 @@
-<?php 
+<?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/E-Commerce/core/init.php';
 $parentID=(int)$_POST['parentID'];
+$selectd = sanitize($_POST['selectd']);
 $childQuery=$db->query("SELECT * FROM categories WHERE parent='$parentID' ORDER BY category");
 ob_start();?>
 	<option value=""></option>
 	<?php while($child=mysqli_fetch_assoc($childQuery)):?>
-		<option value="<?=$child['id'];?>"><?=$child['category'];?></option>
+		<option value="<?=$child['id'];?>"<?=(($selected == $child["id"])?' selected' : '');?>><?=$child['category'];?></option>
 	<?php endwhile;?>
 <?php echo ob_get_clean();?>
